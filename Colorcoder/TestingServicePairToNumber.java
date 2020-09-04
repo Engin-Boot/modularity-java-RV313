@@ -8,7 +8,7 @@ public class TestingServicePairToNumber {
 
 	static void testPairToNumber(MajorColor major, MinorColor minor,int expectedPairNumber){
 		
-	        int pairNumber = GettingServicePairNumberFromColor.GetPairNumberFromColor(major, minor);
+	        int pairNumber = GettingService.GetPairNumberFromColor(major, minor);
 	        System.out.println("Got pair number " + pairNumber);
 	        assert(pairNumber == expectedPairNumber);
 	    }
